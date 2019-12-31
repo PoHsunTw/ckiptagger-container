@@ -4,9 +4,9 @@ The container for [ckiptagger](https://github.com/ckiplab/ckiptagger) with tenso
 
 ## build
 ```bash
-
+docker build -t pohsuntw/ckiptagger .
 ```
 ## push
 ```bash
-
+docker push pohsuntw/ckiptagger
 ```
