@@ -8,6 +8,8 @@ COPY *.py ./
 
 RUN pip install -U ckiptagger[tf,gdown]
 
+RUN pip install flask
+
 RUN python preDownload.py
 
 CMD python3
