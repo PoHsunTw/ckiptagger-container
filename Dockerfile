@@ -10,6 +10,8 @@ RUN pip install -U ckiptagger[tf,gdown]
 
 RUN pip install flask
 
+RUN rm -f data.*
+
 RUN python preDownload.py
 
 CMD python3
